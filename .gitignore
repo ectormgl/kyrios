@@ -1,0 +1,24 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.bak
+*.log
+
+# Do not ignore the website files
+!*.html
+!*.css
+!*.js
+!*.svg
+!*.jpg
+!*.png
+!*.md
