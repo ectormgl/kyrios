@@ -452,6 +452,106 @@ section {
 }
 
 /* ===========================
+   Features Section
+   =========================== */
+.features {
+    padding: 100px 0;
+    background: var(--color-dark);
+}
+
+.features-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.features-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-mockup {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+
+.phone-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.features-text {
+    padding: 20px 0;
+}
+
+.features-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+    color: var(--color-text);
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.feature-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.feature-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 248, 44, 0.1);
+    border: 2px solid var(--color-primary);
+    border-radius: 12px;
+    color: var(--color-primary);
+}
+
+.feature-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.feature-content {
+    flex: 1;
+}
+
+.feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--color-text);
+}
+
+.feature-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.feature-description strong {
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+/* ===========================
    Services Section
    =========================== */
 .services-grid {
@@ -538,7 +638,7 @@ section {
 }
 
 .service-features li::before {
-    content: '→';
+    content: '➨';
     position: absolute;
     left: 0;
     color: var(--color-primary);
@@ -991,6 +1091,15 @@ section {
     .contact-content {
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+
+    .features-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .features-title {
+        font-size: 2rem;
     }
 
     .about-stats {

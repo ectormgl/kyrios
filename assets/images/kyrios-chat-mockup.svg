@@ -1,0 +1,141 @@
+<svg width="400" height="812" viewBox="0 0 400 812" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Phone outer frame -->
+  <rect x="10" y="10" width="380" height="792" rx="50" fill="#000000"/>
+  
+  <!-- Phone screen -->
+  <rect x="24" y="24" width="352" height="764" rx="36" fill="#F5F5F5"/>
+  
+  <!-- Status bar -->
+  <g id="status-bar">
+    <text x="40" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#000000">12:14</text>
+    <!-- Camera notch -->
+    <rect x="155" y="40" width="90" height="28" rx="14" fill="#000000"/>
+    <!-- Status icons -->
+    <circle cx="310" cy="54" r="2" fill="#000000"/>
+    <circle cx="320" cy="54" r="2" fill="#000000"/>
+    <circle cx="330" cy="54" r="2" fill="#000000"/>
+    <circle cx="340" cy="54" r="2" fill="#000000"/>
+    <path d="M350 48 L360 48 L360 60 L350 60 Z" fill="none" stroke="#000000" stroke-width="2"/>
+    <rect x="361" y="52" width="4" height="4" rx="1" fill="#000000"/>
+  </g>
+  
+  <!-- Header with contact info -->
+  <g id="header">
+    <rect x="24" y="88" width="352" height="60" fill="#FFFFFF"/>
+    <circle cx="50" cy="118" r="18" fill="#D1D5DB"/>
+    <text x="80" y="113" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#000000">+94 77 560 3717</text>
+    <text x="80" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Olá! Você poderia explicar como isso funciona?</text>
+  </g>
+  
+  <!-- Search and tabs -->
+  <g id="search-tabs">
+    <rect x="24" y="158" width="352" height="50" fill="#F5F5F5"/>
+    <path d="M58 177 C58 175.895 58.895 175 60 175 L70 175 C71.105 175 72 175.895 72 177 C72 178.105 71.105 179 70 179 L60 179 C58.895 179 58 178.105 58 177 Z" fill="#3B82F6"/>
+    <circle cx="65" cy="183" r="7" stroke="#3B82F6" stroke-width="2" fill="none"/>
+    <line x1="70" y1="188" x2="74" y2="192" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+    <text x="78" y="191" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Pesquisar</text>
+    
+    <!-- Tabs -->
+    <text x="40" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#3B82F6">Todas</text>
+    <rect x="40" y="230" width="22" height="3" rx="1.5" fill="#3B82F6"/>
+    <text x="100" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Não lidas</text>
+    <text x="175" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Favoritos</text>
+    <text x="260" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6B7280">Grupos</text>
+  </g>
+  
+  <!-- Chat list -->
+  <g id="chat-list">
+    <!-- Chat 1 (highlighted) -->
+    <rect x="24" y="240" width="352" height="72" fill="#E0F2FE"/>
+    <circle cx="50" cy="276" r="18" fill="#D1D5DB"/>
+    <text x="90" y="267" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#000000">+94 77 560 3717</text>
+    <text x="318" y="267" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#10B981">12:13</text>
+    <path d="M88 274 L90 276 L94 272" stroke="#10B981" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="284" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">✓ Obrigado por entrar em contato com o</text>
+    <text x="90" y="298" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6B7280">Agente Kyrios! Ajudamos empresas req...</text>
+    <circle cx="355" cy="276" r="10" fill="#10B981"/>
+    <text x="350" y="281" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">1</text>
+    
+    <!-- Chat 2 -->
+    <rect x="24" y="312" width="352" height="72" fill="#FFFFFF"/>
+    <circle cx="50" cy="348" r="18" fill="#D1D5DB"/>
+    <text x="90" y="339" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#000000">+94 77 555 7076</text>
+    <text x="318" y="339" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">12:12</text>
+    <path d="M88 346 L90 348 L94 344" stroke="#9CA3AF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="356" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">✓ Agente Kyrios é um agente de IA que</text>
+    <text x="90" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">ajuda consultas de clientes no W...</text>
+    
+    <!-- Chat 3 -->
+    <rect x="24" y="384" width="352" height="72" fill="#FFFFFF"/>
+    <circle cx="50" cy="420" r="18" fill="#D1D5DB"/>
+    <text x="90" y="411" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#000000">+94 71 350 7533</text>
+    <text x="318" y="411" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">12:12</text>
+    <path d="M88 418 L90 420 L94 416" stroke="#9CA3AF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">✓ Para configurar o Agente Kyrios, comece perguntando</text>
+    <text x="90" y="442" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">sobre seus negócios e como eles...</text>
+    
+    <!-- Chat 4 (checked) -->
+    <rect x="24" y="456" width="352" height="72" fill="#FFFFFF"/>
+    <rect x="40" y="472" width="24" height="24" rx="4" fill="#3B82F6"/>
+    <path d="M46 484 L50 488 L58 478" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="76" cy="492" r="18" fill="#D1D5DB"/>
+    <text x="116" y="483" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#000000">+94 76 870 8702</text>
+    <text x="318" y="483" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">12:11</text>
+    <path d="M114 490 L116 492 L120 488" stroke="#9CA3AF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="116" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">✓ Perfeito! Agora que você se inscreveu,</text>
+    <text x="116" y="514" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">pode me contar um pouco sobre...</text>
+    
+    <!-- Chat 5 -->
+    <rect x="24" y="528" width="352" height="72" fill="#FFFFFF"/>
+    <circle cx="50" cy="564" r="18" fill="#D1D5DB"/>
+    <text x="90" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#000000">+94 71 087 4779</text>
+    <text x="318" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">11:30</text>
+    <path d="M88 562 L90 564 L94 560" stroke="#9CA3AF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Chat 6 -->
+    <rect x="24" y="600" width="352" height="72" fill="#FFFFFF"/>
+    <circle cx="50" cy="636" r="18" fill="#D1D5DB"/>
+    <text x="90" y="627" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#000000">+94 77 200 7949</text>
+    <text x="318" y="627" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF">11:20</text>
+    <path d="M88 634 L90 636 L94 632" stroke="#9CA3AF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="644" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">✓ Acabei de enviar o vídeo novamente 🎥</text>
+    <text x="90" y="658" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF">Veja como configurá-lo.</text>
+  </g>
+  
+  <!-- Bottom navigation -->
+  <g id="bottom-nav">
+    <rect x="24" y="688" width="352" height="76" fill="#FFFFFF"/>
+    
+    <!-- Chats tab (active) -->
+    <g id="chats-tab">
+      <circle cx="65" cy="720" r="12" fill="#EF4444"/>
+      <text x="60" y="715" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">20</text>
+      <path d="M58 730 L72 730 C73.105 730 74 729.105 74 728 L74 718 C74 716.895 73.105 716 72 716 L58 716 C56.895 716 56 716.895 56 718 L56 728 C56 729.105 56.895 730 58 730 Z M62 730 L68 730 L65 734 Z" fill="#00D9A5"/>
+      <text x="48" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#00D9A5">Chats</text>
+    </g>
+    
+    <!-- Updates tab -->
+    <g id="updates-tab">
+      <circle cx="154" cy="722" r="10" stroke="#6B7280" stroke-width="2" fill="none"/>
+      <circle cx="154" cy="722" r="4" fill="#6B7280"/>
+      <text x="130" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6B7280">Atualizações</text>
+    </g>
+    
+    <!-- Communities tab -->
+    <g id="communities-tab">
+      <circle cx="234" cy="720" r="6" fill="#6B7280"/>
+      <circle cx="246" cy="720" r="6" fill="#6B7280"/>
+      <circle cx="240" cy="728" r="6" fill="#6B7280"/>
+      <text x="204" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6B7280">Comunidades</text>
+    </g>
+    
+    <!-- Calls tab -->
+    <g id="calls-tab">
+      <path d="M330 716 C328 716 326 717 325 719 L322 725 C321 727 322 728 324 729 L326 730 C326 732 325 734 323 736 C321 738 319 739 317 739 L316 737 C315 735 314 734 312 735 L306 738 C304 739 303 741 304 743 C305 745 307 747 310 747 C315 747 320 745 324 741 C328 737 330 732 330 727 C330 722 328 718 326 716 L330 716 Z" fill="#6B7280"/>
+      <text x="323" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#6B7280">Ligações</text>
+    </g>
+  </g>
+  
+  <!-- Phone frame highlight -->
+  <rect x="10" y="10" width="380" height="792" rx="50" fill="none" stroke="#1F2937" stroke-width="3"/>
+</svg>
